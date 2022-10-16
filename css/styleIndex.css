@@ -1,9 +1,4 @@
-body{
-    padding: 0;
-    margin: 0;
-    width: fit-content;
-    background-color: rgb(138, 125, 117);
-}
+
 main{
     display: grid;
     grid-template-columns: 15% 85%;
