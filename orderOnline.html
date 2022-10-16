@@ -20,29 +20,69 @@
     <main>
         <nav>
             <ul>
-                <li>Mlecne vyrobky</li>
-                <li>Uzeniny</li>
-                <li>Chipsy</li>
-                <li>napoje</li>
+                <li>Vsechny kategorie</li>
+                <ul>
+                    <a href="mlecneVyrobky.html" target="">
+                        <li>Mlecne vyrobky</li>
+                    </a>
+                    <a href="uzeniny.html" target="iframe-mlecneVyrobky">
+                        <li>Uzeniny</li>
+                    </a>
+                    <a href="orderOnline.html" target="iframe-mlecneVyrobky">
+                        <li>Chipsy</li>
+                    </a>
+                    <a href="orderOnline.html" target="iframe-mlecneVyrobky">
+                        <li>Napoje</li>
+                    </a>
+                </ul>
             </ul>
         </nav>
 
-        <div style="display: flex; flex-wrap:wrap">
+        <div>
             <figure>
-                <img src="media-img\redbull 250ml.jpg" alt="">
-                <figcaption>Redbull plechovka 250ml</figcaption>
+                <img src="media-img/pepsi 320ml.jpg" alt="">
+                <div class="info-produkt">
+                    <span>Pepsi plechovka 320ml</span>
+                    <span>49.90 Kc</span>
+                </div>
+                <div class="button-function">
+                    <input type="number" name="number">
+                    <input type="button" name="addToCart" value="Add to cart">
+                </div>
+
             </figure>
             <figure>
-                <img src="media-img\redbull 250ml.jpg" alt="">
-                <figcaption>Redbull plechovka 250ml</figcaption>
+                <img src="media-img/pepsi zero 320ml.jpg" alt="">
+                <div class="info-produkt" style="background-color: aqua;">
+                    <span>Pepsi plechovka 320ml</span>
+                    <span>49.90 Kc</span>
+                </div>
+                <div class="button-function">
+                    <input type="number" name="number">
+                    <input type="button" name="addToCart" value="Add to cart">
+                </div>
             </figure>
             <figure>
-                <img src="media-img\redbull 250ml.jpg" alt="">
-                <figcaption>Redbull plechovka 250ml</figcaption>
+                <img src="media-img/fanta 0.33l.jpg" alt="">
+                <div class="info-produkt">
+                    <span>Pepsi plechovka 320ml</span>
+                    <span>49.90 Kc</span>
+                </div>
+                <div class="button-function">
+                    <input type="number" name="number">
+                    <input type="button" name="addToCart" value="Add to cart">
+                </div>
             </figure>
             <figure>
-                <img src="media-img\redbull 250ml.jpg" alt="">
-                <figcaption>Redbull plechovka 250ml</figcaption>
+                <img src="media-img/cola 0.33l.png" alt="">
+                <div class="info-produkt">
+                    <span>Pepsi plechovka 320ml</span>
+                    <span>49.90 Kc</span>
+                </div>
+                <div class="button-function">
+                    <input type="number" name="number">
+                    <input type="button" name="addToCart" value="Add to cart">
+                </div>
             </figure>
         </div>
     </main>

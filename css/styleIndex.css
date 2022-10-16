@@ -13,7 +13,7 @@ main{
 .content{
     position: relative;
     padding: 0 1em;
-    color: rgb(19, 19, 19);
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
