@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    background-color: rgb(138, 125, 117);
+}
+main{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    
+}
+  
+.content{
+    position: relative;
+    padding: 0 1em;
+    color: rgb(19, 19, 19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content::before{
+    content: "";
+    position: absolute;
+    background-image: url("https://theplanetapp.com/wp-content/uploads/2020/09/sustainable-supermarket-theplanetapp-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+} 
+
+.content-ele{
+    position: relative;
+    padding: 0 1em;
+}
+p{
+    font-size: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding:1em;   
+    margin: 0;
+}
+li{
+    padding: 1em;
+    margin: 1em 0;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+    background-color: grey;
+    border-radius: 5px;
+    color: white;
+}
+
+img{
+    width: 50%;
+}
